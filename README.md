@@ -4,7 +4,7 @@ A physical library of non-digital experiences. Blessed with actual sunlight, pre
 
 Don't scroll, just breathe.
 
-**grass** — tactile interaction kit. This repository is the kit. There is one file. There is no build step. The runtime is outside.
+**grass**, tactile interaction kit. This repository is the kit. There is one file. There is no build step. The runtime is outside.
 
 | Metric | Value | Meaning |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Notice, in order:
 
 - temperature (cooler than your hand, usually)
 - texture (blades, clover, dirt, the odd stick)
-- smell (cut grass, wet soil, nothing — all valid)
+- smell (cut grass, wet soil, nothing. All valid.)
 - sound (wind, insects, a distant car, your own breathing)
 
 Leave the hand there for thirty seconds. Do not photograph it. The interaction is the point, not the artifact.
@@ -119,7 +119,7 @@ Biological enlightenment is not guaranteed. Biological contact is.
 ## Troubleshooting
 
 | Symptom | Fix |
-| --- | --- |
+| --- | --- | --- |
 | Can't find grass | Walk two more blocks. Parks, verges, cemeteries with public paths, the strip outside an office. Cities have more of it than the walk from the desk to the door suggests. |
 | It's dark | Go anyway if the path is lit and you feel safe. Moonlight is a supported renderer. If you don't feel safe, wait for daylight. The kit does not require heroics. |
 | It's raining | A short session in light rain is in spec. Heavy rain, wind that wants your umbrella, or standing water: reschedule. |
@@ -167,4 +167,4 @@ You may use this file for anything, including ignoring it and going outside anyw
 
 ## Version
 
-`1.0.0` — initial release. No changelog. The outdoors does not semver.
+`1.0.0`, initial release. No changelog. The outdoors does not semver.
