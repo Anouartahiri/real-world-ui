@@ -1,5 +1,7 @@
 # touch-grass-collective / real-world-ui
 
+![touch-grass-collective / real-world-ui, tactile interaction kit](https://repository-images.githubusercontent.com/1410552989/c8b8cd5f-fc9d-498c-a834-cfd3049fc513)
+
 A physical library of non-digital experiences. Blessed with actual sunlight, pre-approved by your local park rangers. Achieve biological enlightenment.
 
 Don't scroll, just breathe.
