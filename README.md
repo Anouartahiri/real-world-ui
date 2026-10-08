@@ -1,10 +1,14 @@
 # touch-grass-collective / real-world-ui
 
+<p align="center">
+  <img src="grass.png" alt="grass" width="180">
+</p>
+
 A physical library of non-digital experiences. Blessed with actual sunlight, pre-approved by your local park rangers. Achieve biological enlightenment.
 
 Don't scroll, just breathe.
 
-**grass**, tactile interaction kit. This repository is the kit. There is one file. There is no build step. The runtime is outside.
+**grass**, tactile interaction kit. This repository is the kit. There is no build step. The runtime is outside.
 
 | Metric | Value | Meaning |
 | --- | --- | --- |
