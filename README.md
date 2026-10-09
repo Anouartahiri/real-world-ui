@@ -10,6 +10,14 @@ Don't scroll, just breathe.
 
 **grass**, tactile interaction kit. This repository is the kit. There is no build step. The runtime is outside.
 
+Use it as a check:
+
+```yaml
+- uses: Anouartahiri/real-world-ui@v1
+```
+
+The check is named touch grass. It passes. On Friday after 16:00 it fails, and the annotation says the build is fine, you are not. Timezone defaults to UTC. Set `timezone: Europe/Paris` if the cutoff should follow a city.
+
 | Metric | Value | Meaning |
 | --- | --- | --- |
 | Naturopaths | 1,337,420 | People who already did this and will not shut up about it |

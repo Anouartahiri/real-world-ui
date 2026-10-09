@@ -1,0 +1,36 @@
+name: touch grass
+description: A check that tells you to go outside. Passes. Fails on Friday after 16:00.
+author: Anouartahiri
+branding:
+  icon: sun
+  color: green
+inputs:
+  timezone:
+    description: IANA timezone for the Friday cutoff
+    required: false
+    default: UTC
+  cutoff:
+    description: Hour, 0-23, after which Friday fails
+    required: false
+    default: "16"
+runs:
+  using: composite
+  steps:
+    - name: touch grass
+      shell: bash
+      env:
+        TZ_NAME: ${{ inputs.timezone }}
+        CUTOFF: ${{ inputs.cutoff }}
+      run: |
+        set -euo pipefail
+        echo "touch grass"
+        echo "Leave the phone on the table. Ten minutes. The runtime is outside."
+        echo "Mosquito bites are a known issue."
+        dow=$(TZ="$TZ_NAME" date +%u)
+        hour=$(TZ="$TZ_NAME" date +%H)
+        echo "clock: $(TZ="$TZ_NAME" date '+%A %H:%M %Z')"
+        if [ "$dow" = "5" ] && [ "$hour" -ge "$CUTOFF" ]; then
+          echo "::error::The build is fine. You are not. Go outside."
+          exit 1
+        fi
+        echo "pass"
